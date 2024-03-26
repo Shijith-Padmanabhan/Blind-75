@@ -51,4 +51,9 @@ const getHash = og => {
     return freqArray.toString();
 }
 
+/**
+ * Function to return charcode for char in integer
+ * @param {*} char 
+ * @returns 
+ */
 const getCode = char => char.charCodeAt(0) - 'a'.charCodeAt(0);
